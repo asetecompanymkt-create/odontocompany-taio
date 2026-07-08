@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://odontocompany.example/sitemap.xml

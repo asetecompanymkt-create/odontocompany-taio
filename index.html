@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<!--
+  OdontoCompany · Prótese Protocolo — landing de conversão (WhatsApp).
+  Unidade: Taió (SC). Site estático, sem build.
+  Estrutura: index.html + css/styles.css + js/main.js + /assets.
+
+  EDIÇÃO RÁPIDA:
+    WhatsApp / endereços das unidades ...... js/main.js (objeto UNITS)
+    Cores e fontes ......................... css/styles.css (:root)
+    CRO / responsável técnico .............. buscar "CRO-SC" abaixo
+    Vídeo-gancho ........................... assets/protese-protocolo.*
+-->
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>document.documentElement.classList.add('js');</script>
+
+  <!-- SEO ---------------------------------------------------------------- -->
+  <title>Prótese Protocolo em Taió | Dentes Fixos em até 36x | OdontoCompany</title>
+  <meta name="description" content="Volte a mastigar e sorrir com dentes fixos que não saem da boca. Prótese Protocolo sobre implantes na OdontoCompany de Taió (SC), parcelada em até 36x sem juros. Agende sua avaliação no WhatsApp.">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#2fa84f">
+  <link rel="canonical" href="https://odontocompany.example/">
+
+  <!-- Open Graph (preview WhatsApp/Facebook) ----------------------------- -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:site_name" content="OdontoCompany · Taió">
+  <meta property="og:title" content="Dentes fixos que não saem da boca | Prótese Protocolo em até 36x">
+  <meta property="og:description" content="Prótese Protocolo sobre implantes em Taió (SC). Parcelada em até 36x sem juros. Agende sua avaliação.">
+  <meta property="og:image" content="assets/protese-protocolo-poster.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- Favicon (dente/escudo verde) --------------------------------------- -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%232fa84f'/%3E%3Cpath d='M16 7c-3 0-4 1.6-6 1.6C8.4 8.6 8 10 8 12c0 5 2 12 3.4 12 1.2 0 1-3 2.2-3s1 3 2.4 3C19.6 24 22 17 22 12c0-2-.4-3.4-2-3.4C18 8.6 19 7 16 7z' fill='%23fff'/%3E%3C/svg%3E">
+
+  <!-- Fontes ------------------------------------------------------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Dados estruturados ------------------------------------------------- -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Dentist",
+    "name": "OdontoCompany · Prótese Protocolo (Taió)",
+    "description": "Reabilitação oral com Prótese Protocolo (dentes fixos sobre implantes) em Taió, Santa Catarina.",
+    "medicalSpecialty": "Dentistry",
+    "areaServed": ["Taió", "Alto Vale do Itajaí"],
+    "priceRange": "$$",
+    "location": { "@type": "Place", "name": "OdontoCompany Taió", "address": { "@type": "PostalAddress", "addressLocality": "Taió", "addressRegion": "SC", "addressCountry": "BR" } }
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- Header -------------------------------------------------------------- -->
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="#topo" aria-label="OdontoCompany, início">
+        <img src="assets/logo-odontocompany.png" alt="OdontoCompany" width="200" height="38">
+      </a>
+      <div class="nav-right">
+        <span class="nav-city">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.3-7-11a7 7 0 1114 0c0 4.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>
+          <b>Taió</b>
+        </span>
+      </div>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <span id="topo"></span>
+
+    <!-- HERO -------------------------------------------------------------- -->
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-copy">
+          <h1>Volte a mastigar e sorrir com <span class="hl">dentes fixos que não saem da boca.</span></h1>
+          <p class="sub">A Prótese Protocolo é fixa, não solta, não machuca, não precisa tirar pra comer. Aqui na OdontoCompany, você sai com o seu sorriso novo podendo parcelar em <strong>36x direto com a clínica, sem juros e sem banco</strong>.</p>
+          <div class="hero-actions">
+            <span class="cta-attn">
+              <a class="btn btn--wa btn--lg js-cta" data-cta="hero" href="#unidades">
+                <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zM6.597 20.13c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.489-.917zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+                Quero fazer minha avaliação
+              </a>
+            </span>
+          </div>
+          <p class="hero-note">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true"><path d="M20 6L9 17l-5-5"/></svg>
+            Avaliação sem compromisso · a gente calcula sua parcela na hora
+          </p>
+        </div>
+
+        <!-- Vídeo-gancho -->
+        <div class="hero-video" data-reveal>
+          <div class="video-card" aria-label="Vídeo: como funciona a Prótese Protocolo">
+            <video
+              preload="none"
+              playsinline
+              poster="assets/protese-protocolo-poster.jpg"
+              width="1920" height="1080">
+              <source src="assets/protese-protocolo.webm" type="video/webm">
+              <source src="assets/protese-protocolo.mp4" type="video/mp4">
+            </video>
+            <img class="poster" src="assets/protese-protocolo-poster.jpg" alt="Prótese Protocolo em até 36x sem juros" width="1200" height="675">
+            <button class="video-play" type="button" aria-label="Tocar vídeo">
+              <span class="disc" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span>
+              <span class="label">Veja em 15s como funciona</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOR / AGITAÇÃO ---------------------------------------------------- -->
+    <section class="section section--soft">
+      <div class="wrap">
+        <div class="head center" data-reveal>
+          <span class="eyebrow">Se isso é a sua rotina, presta atenção</span>
+          <h2>Comer, sorrir e conversar não deviam ser um problema</h2>
+          <p class="lead center" style="margin-inline:auto">A dentadura que solta, o dente que faltou, a foto que você desvia o rosto. Isso não é “coisa da idade”. Tem solução fixa.</p>
+        </div>
+        <ul class="pain-list" data-reveal style="max-width:760px;margin-inline:auto">
+          <li><span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span><span>A <strong>dentadura solta</strong> na hora de comer, machuca a gengiva e te obriga a tirar na frente dos outros.</span></li>
+          <li><span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span><span>Você <strong>mastiga de um lado só</strong> e já nem lembra quando comeu uma carne ou uma maçã sem medo.</span></li>
+          <li><span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span><span>Desvia o rosto na <strong>foto de família</strong> e sorri de boca fechada sem nem pensar.</span></li>
+          <li><span class="x"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M18 6L6 18M6 6l12 12"/></svg></span><span>Onde <strong>faltou dente</strong>, os vizinhos entortam pro vazio e o osso vai encolhendo. Quanto mais espera, mais complexo fica.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- DENTADURA x PROTOCOLO --------------------------------------------- -->
+    <section class="section">
+      <div class="wrap">
+        <div class="head center" data-reveal>
+          <span class="eyebrow">A diferença que muda tudo</span>
+          <h2>Dentadura não é a mesma coisa que Protocolo</h2>
+          <p class="lead center" style="margin-inline:auto">Uma você tira todo dia. A outra é sua, fica na boca, parafusada no osso. Você esquece que tem.</p>
+        </div>
+        <div class="compare" data-reveal>
+          <div class="col bad">
+            <h3>Dentadura <span class="tagbad">REMOVÍVEL</span></h3>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg>Solta e balança na hora de comer</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg>Machuca e cria feridas na gengiva</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg>Tira pra dormir, pra limpar, pra comer</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M18 6L6 18M6 6l12 12"/></svg>Força de mastigação reduzida</li>
+            </ul>
+          </div>
+          <div class="col good">
+            <h3>Prótese Protocolo <span class="taggood">FIXA NO OSSO</span></h3>
+            <ul>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Parafusada sobre implantes, não sai, não dança</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Você morde o que quiser, dos dois lados</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Fica na boca o tempo todo, como dente seu</li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M20 6L9 17l-5-5"/></svg>Devolve firmeza pra mastigar e sorrir</li>
+            </ul>
+          </div>
+        </div>
+        <div class="center" style="margin-top:32px" data-reveal>
+          <a class="btn btn--wa js-cta" data-cta="hero" href="#unidades">Quero dentes fixos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- OBJEÇÕES ---------------------------------------------------------- -->
+    <section class="section section--soft">
+      <div class="wrap">
+        <div class="head center" data-reveal>
+          <span class="eyebrow">O que mais trava as pessoas</span>
+          <h2>Três dúvidas que a gente resolve na avaliação</h2>
+        </div>
+        <div class="grid grid-3" data-reveal>
+          <div class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v5l3 2"/><circle cx="12" cy="12" r="9"/></svg></div>
+            <h3>“Na minha idade vale a pena?”</h3>
+            <p>Não importa se você tem 40, 60 ou 70. O que importa é quantos anos você ainda vai comer, sorrir e viver bem. Idade não define tratamento.</p>
+          </div>
+          <div class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+            <h3>“Implante dói?”</h3>
+            <p>O procedimento é feito com anestesia local e planejamento. O que costuma doer mais é conviver anos com o dente faltando por causa de um medo que nem se confirma.</p>
+          </div>
+          <div class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="5" width="20" height="14" rx="2"/><path d="M2 10h20"/></svg></div>
+            <h3>“Não cabe no meu bolso.”</h3>
+            <p>Dá pra dividir em até <strong>36x direto com a clínica, sem juros</strong>, sem banco e sem burocracia. Na avaliação a gente calcula sua parcela, sem compromisso.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO FUNCIONA ----------------------------------------------------- -->
+    <section class="section">
+      <div class="wrap">
+        <div class="head center" data-reveal>
+          <span class="eyebrow">Simples do começo ao fim</span>
+          <h2>Do primeiro contato aos dentes fixos</h2>
+        </div>
+        <div class="steps" data-reveal>
+          <div class="step">
+            <h3>Avaliação e exame</h3>
+            <p>Você chama no WhatsApp e agenda. Na clínica fazemos a avaliação e a tomografia pra entender o seu caso.</p>
+          </div>
+          <div class="step">
+            <h3>Seu plano e sua parcela</h3>
+            <p>Mostramos o que dá pra fazer, o passo a passo e o valor dividido em até 36x sem juros. Sem enrolação.</p>
+          </div>
+          <div class="step">
+            <h3>Dentes fixos de volta</h3>
+            <p>Colocamos os implantes e a prótese fixa. Você volta a mastigar e a sorrir com firmeza.</p>
+          </div>
+        </div>
+        <div class="center" style="margin-top:32px" data-reveal>
+          <a class="btn btn--wa js-cta" data-cta="final" href="#unidades">Começar pela avaliação</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- AUTORIDADE -------------------------------------------------------- -->
+    <section class="section section--soft">
+      <div class="wrap">
+        <div class="head center" data-reveal>
+          <span class="eyebrow">Quem cuida de você</span>
+          <h2>Tratamento com especialista, aqui pertinho</h2>
+          <p class="lead center" style="margin-inline:auto">Você não precisa ir longe para ter seu sorriso de volta. Estamos próximos a você, com condições de pagamento que não se encontram tão fácil.</p>
+        </div>
+        <div class="grid grid-3" data-reveal>
+          <div class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14v7M5 10v5a7 3 0 0014 0v-5"/></svg></div>
+            <h3>Dr. Felipe Mees</h3>
+            <p>Cirurgião-dentista responsável pela reabilitação com implantes e Prótese Protocolo. <br><small style="color:var(--muted)">CRO-SC 00000 · Responsável Técnico</small></p>
+          </div>
+          <div class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+            <h3>Planejamento antes de tudo</h3>
+            <p>Tomografia e avaliação individual pra montar o tratamento certo pro seu caso, com clareza sobre cada etapa.</p>
+          </div>
+          <div class="card">
+            <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.3-7-11a7 7 0 1114 0c0 4.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg></div>
+            <h3>Perto de casa</h3>
+            <p>Aqui em Taió, no Alto Vale do Itajaí, pertinho de você. Atendimento humano, no seu tempo e na sua língua.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- UNIDADE / CTA ----------------------------------------------------- -->
+    <section class="section" id="unidades">
+      <div class="wrap">
+        <div class="head center" data-reveal>
+          <span class="eyebrow">Fale com a nossa unidade</span>
+          <h2>OdontoCompany Taió</h2>
+          <p class="lead center" style="margin-inline:auto">Chame no WhatsApp: a gente responde, tira suas dúvidas e agenda sua avaliação. Rápido e sem compromisso.</p>
+        </div>
+        <div class="units" data-reveal style="grid-template-columns:1fr;max-width:520px;margin-inline:auto">
+          <div class="unit">
+            <h3><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="var(--green)" stroke-width="2"><path d="M12 21s-7-6.3-7-11a7 7 0 1114 0c0 4.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>OdontoCompany Taió</h3>
+            <div class="addr">
+              <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 21s-7-6.3-7-11a7 7 0 1114 0c0 4.7-7 11-7 11z"/><circle cx="12" cy="10" r="2.5"/></svg>Endereço da unidade de Taió, SC</span>
+            </div>
+            <a class="btn btn--wa btn--block js-unit-cta" data-unit="taio" data-cta="unidade" href="#">
+              <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zM6.597 20.13c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.489-.917zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+              WhatsApp · Taió
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ --------------------------------------------------------------- -->
+    <section class="section section--soft">
+      <div class="wrap">
+        <div class="head center" data-reveal>
+          <span class="eyebrow">Perguntas frequentes</span>
+          <h2>Ainda com dúvida? A gente responde</h2>
+        </div>
+        <div class="faq" data-reveal>
+          <details>
+            <summary>O que é a Prótese Protocolo? <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg></summary>
+            <div class="a">É uma prótese fixa, presa sobre implantes no osso. Diferente da dentadura, ela não é removível: fica na boca o tempo todo e devolve firmeza pra mastigar e sorrir.</div>
+          </details>
+          <details>
+            <summary>Serve pra quem já usa dentadura? <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg></summary>
+            <div class="a">Muitas vezes sim. Cada caso é avaliado individualmente com exame e tomografia. Na avaliação a gente confirma o que é possível pra você.</div>
+          </details>
+          <details>
+            <summary>Como funciona o parcelamento em 36x? <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg></summary>
+            <div class="a">O parcelamento é <strong>direto com a clínica, em até 36x sem juros</strong>. Você não precisa de banco, de financiamento nem de cartão de crédito. É a própria OdontoCompany que divide o valor com você. O número de parcelas e o valor de cada uma dependem do seu plano e são apresentados na avaliação, sem compromisso (sujeito a análise).</div>
+          </details>
+          <details>
+            <summary>Preciso ir até a clínica pra saber o valor? <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M6 9l6 6 6-6"/></svg></summary>
+            <div class="a">O orçamento fechado depende da avaliação presencial e do exame. Mas você já pode tirar suas dúvidas e adiantar tudo pelo WhatsApp antes de agendar.</div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA FINAL --------------------------------------------------------- -->
+    <section class="section cta-band">
+      <div class="wrap">
+        <h2 data-reveal>Você MERECE sorrir sem medo</h2>
+        <p data-reveal>Agende sua consulta pelo WhatsApp e fale direto com a nossa unidade de Taió.</p>
+        <span class="cta-attn" data-reveal style="margin-top:10px">
+          <a class="btn btn--wa btn--lg js-cta" data-cta="final" href="#unidades">
+            <svg class="ico" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M.057 24l1.687-6.163a11.867 11.867 0 01-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.817 11.817 0 018.413 3.488 11.824 11.824 0 013.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 01-5.688-1.448L.057 24zM6.597 20.13c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 001.51 5.26l-.999 3.648 3.489-.917zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/></svg>
+            Agendar minha avaliação
+          </a>
+        </span>
+        <p class="fineprint" data-reveal>Parcelamento em até 36x sem juros, sujeito a análise e condições. Consulte na avaliação.</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -------------------------------------------------------------- -->
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="cols">
+        <div class="foot-brand">
+          <span class="brand-foot"><img src="assets/logo-odontocompany.png" alt="OdontoCompany" width="200" height="40"></span>
+          <p>Reabilitação oral com Prótese Protocolo, dentes fixos sobre implantes, em Taió, Santa Catarina.</p>
+        </div>
+        <div class="foot-col">
+          <h4>Unidades</h4>
+          <p>Taió, SC</p>
+        </div>
+        <div class="foot-col">
+          <h4>Atendimento</h4>
+          <p>Agende pelo WhatsApp<br>Taió</p>
+        </div>
+      </div>
+      <div class="legal">
+        © <span id="year">2026</span> OdontoCompany, todos os direitos reservados.
+      </div>
+    </div>
+  </footer>
+
+
+  <script>window.CITY = 'taio';</script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
